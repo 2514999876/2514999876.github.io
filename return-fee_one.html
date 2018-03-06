@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03退水费-1</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/layui/css/layui.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/herder.css">
+    <link rel="stylesheet" href="css/return-fee.css">
+    <script src="./public/js/jquery-3.2.1.js"></script>
+    <script src="js/index.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<header>
+    <ul class="h-nav">
+        <li><img src="img/fan.png" alt="" onclick="javascript:window.history.back()"></li>
+        <li>退 水 费</li>
+        <li ><img src="img/dan.png" class="slider" alt="">
+        <div class="drop">
+            <ol>
+                <li><a href="#"><i class="iconfont icon-weibiaoti11-copy"></i>&nbsp; 返回首页</a></li>
+                <li><a href="#"><i class="iconfont icon-xiugaimima"></i>&nbsp; 修改密码</a></li>
+                <li><a href="#"><i class="iconfont icon-weibiaoti1"></i> &nbsp;退出登录</a></li>
+            </ol>
+        </div>
+        </li>
+    </ul>
+
+</header>
+<!--内容-->
+<section>
+    <div class="deal">
+        <p class="tim">
+            <span class="left">2018-01-01 16:00</span>
+        <span class="right">
+            <span>操作人:</span>
+            <span>郝瑞秀</span>
+        </span>
+        </p>
+        <p class="tim">
+            <span class="left">
+                <span>用水户信息:</span>
+                <span>龙泉乡(003249)</span>
+            </span>
+            <span class="right">
+            <span>退水类型:</span>
+            <span>农业用水</span>
+        </span>
+        </p>
+        <div class="num">
+           <p class="ber">
+               <span>2</span>
+               <span>20000</span>
+               <span class="red">150000</span>
+           </p>
+           <p class="str">
+               <span>退水票(张)</span>
+               <span>退水量(方)</span>
+               <span>应退金额(元)</span>
+           </p>
+        </div>
+        <div class="dai">
+            <span class="left">
+            <span>状态:</span>
+            <span class="blue">待处理</span>
+            </span>
+            <span class="right">
+               <a href="return-fee.html"> <button class="layui-btn layui-btn-primary">处理</button></a>
+            </span>
+        </div>
+    </div>
+    <div class="deal">
+        <p class="tim">
+            <span class="left">2018-01-01 16:00</span>
+        <span class="right">
+            <span>操作人:</span>
+            <span>郝瑞秀</span>
+        </span>
+        </p>
+        <p class="tim">
+            <span class="left">
+                <span>用水户信息:</span>
+                <span>龙泉乡(003249)</span>
+            </span>
+            <span class="right">
+            <span>退水类型:</span>
+            <span>工业用水</span>
+        </span>
+        </p>
+        <div class="num">
+           <p class="ber">
+               <span>1</span>
+               <span>10000</span>
+               <span class="red">1600</span>
+           </p>
+           <p class="str">
+               <span>退水票(张)</span>
+               <span>退水量(方)</span>
+               <span>应退金额(元)</span>
+           </p>
+        </div>
+        <div class="dai">
+            <span class="left">
+            <span>状态:</span>
+            <span class="blue">待处理</span>
+            </span>
+            <span class="right">
+                <button class="layui-btn layui-btn-primary">处理</button>
+            </span>
+        </div>
+    </div>
+</section>
+<!--底部导航-->
+<!--<footer>
+    <ul class="nav">
+        <li><a href="#" class="ac"><p class="icon-home-2"></p>首页</a></li>
+        <li><a href="#"><p class="icon-user"></p>用户信息</a></li>
+        <li><a href="#"><p class="icon-big"></p>信息查询</a></li>
+        <li><a href="#"><p class="icon-count"></p>辅助计算</a></li>
+    </ul>
+
+</footer>-->
+
+
+
+<script src="./public/layui/layui.all.js"></script>
+<script src="js/home.js"></script>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function () {
+        var element = layui.element;
+
+    });
+    nav._nav();
+    $.drop();
+
+</script>
+</body>
+</html>

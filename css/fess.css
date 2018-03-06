@@ -1,0 +1,100 @@
+section{
+    width: 100%;
+    background: #F5F5F5;
+    font-weight:500;
+}
+html{
+    background: #F5F5F5;
+
+}
+section h2{
+    text-align: center;
+    font-size: 0.46rem;
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    background: #fff;
+}
+section h2:after{
+    content: '';
+    display: block;
+    width: 1rem;
+    text-align: center;
+    margin: 0.1rem auto;
+    height: 0;
+    border-bottom: 2px solid #FFCC00;
+}
+.grey{
+    width: 100%;
+    height: 0.3rem;
+    background: #F5F5F5;
+}
+
+/*表*/
+.layui-form{
+    font-size: 0.39rem;
+    background: #fff;
+    /*font-weight: bold;*/
+}
+.layui-form-label{
+    border-right: 1px solid #DDE3E6;
+    padding: 9px;
+    width: 2.2rem;
+    height: 0.5rem;
+    color: #2C80EC;
+}
+.layui-form-item{
+    border-bottom: 1px solid #DDE3E6;
+    margin-bottom:0.1rem;
+    margin-top:0.2rem;
+}
+.layui-input-inline {
+    width: 7rem !important; ;
+    /*margin: 0 0 10px 3rem !important;*/
+}
+@media screen and (max-width: 450px){
+    .layui-input-inline {
+        width: 7rem ;
+        margin: 0 0 10px 3rem !important;
+    }
+}
+.layui-input{
+    background: none;
+    border: none;
+}
+.layui-input-inline.fei{
+    /*width: 6rem !important;*/
+}
+.layui-input-inline.fei span{
+   display: inline-block;
+    border-left: 1px solid #DDE3E6;
+    padding: 0 0.3rem;
+}
+.layui-input-inline.fei .layui-input{
+    display: inline-block;
+    width: 80%;
+    color: #333;
+}
+.sub{
+    background: #F5F5F5;
+    padding: 1rem 0;
+    text-align: center;
+    margin: 1rem 0;
+}
+.sub .layui-btn{
+    width: 3.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: #2F77EC;
+    font-size: 0.31rem;
+}
+.red{
+    color: #FF0303 !important;
+}
+.in_qu{
+    background: #F9FAFB;
+    text-align: center;
+}
+.in_qu img{
+width: 3rem;
+}

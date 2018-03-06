@@ -1,0 +1,85 @@
+section{
+    font-size: 0.31rem;
+    color: #A3A3A3;
+}
+html{
+    background: #F5F5F5;
+}
+h3{
+    background: #F9FAFB;
+    text-align: center;
+    padding: 0.8rem 0;
+    border: 1px solid #E6EBED;
+    border-left: none;
+    border-right: none;
+}
+.township{
+    width: 100%;
+    background: #fff;
+    border:1px solid #EBEFF1;
+    margin: 0.2rem 0;
+    border-left: none;
+    border-right: none;
+}
+ .left,
+ .center,
+ .right{
+     display: inline-block;
+     vertical-align: middle;
+     /*border: 1px solid #000;*/
+
+ }
+.left img{
+    width: 1.5rem;
+}
+ .left,.right{
+     width:2rem ;
+     text-align: center;
+ }
+ .center{
+     width: 5.5rem;
+ }
+ h4{
+     font-weight: bold;
+     font-size: 0.31rem;
+     padding: 0.2rem;
+     color: #333;
+ }
+.township p{
+    padding: 0.1rem 0.2rem;
+}
+.time{
+    background: #F9FAFB;
+    padding: 0.3rem;
+    border: 1px solid #E1E7E9;
+    border-left: none;
+    border-right: none;
+}
+.layui-icon{
+    font-size: 0.5rem;
+    padding: 0 0.1rem;
+}
+.layui-icon.del{
+    color: #EA4661 ;
+
+}
+.layui-icon.edit{
+    color: #FFA114 ;
+
+}
+.iconfont.del{
+    color: #EA4661 ;
+
+}
+.iconfont.edit{
+    color: #FFA114 ;
+    padding: 0 0.5rem 0 0;
+}
+.load{
+    background: #F5F5F5;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.load p{
+    padding: 0.1rem 0;
+}

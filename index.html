@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>01首页</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <link rel="stylesheet" href="./public/css/reset.css">
+    <link rel="stylesheet" href="./public/layui/css/layui.css">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="fonts/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="./public/js/jquery-3.2.1.js"></script>
+    <script src="js/circleChart.min.js"></script>
+    <script src="js/index.min.js"></script>
+</head>
+<body>
+
+
+<section>
+    <!--<div class="head">
+        <p> </p>
+        <p>水 费 计 收</p>
+        <p><img src="img/cai.png" alt="">
+        <span class="drop"></span>
+        </p>
+    </div>-->
+    <ul class="h-nav">
+        <!--<li><img src="img/fan.png" alt="" onclick="javascript:window.history.back()"></li>-->
+        <li> </li>
+        <li>水费计收</li>
+        <li ><img src="img/dan.png" class="slide" alt="">
+            <div class="drop">
+                <ol>
+                    <li><a href="#"><i class="iconfont icon-weibiaoti11-copy"></i>&nbsp; 返回首页</a></li>
+                    <li><a href="#"><i class="iconfont icon-xiugaimima"></i>&nbsp; 修改密码</a></li>
+                    <li><a href="log-in.html"><i class="iconfont icon-weibiaoti1"></i> &nbsp;退出登录</a></li>
+                </ol>
+            </div>
+        </li>
+    </ul>
+    <img src="img/index_bei.png" alt="">
+    <div class="percent">
+
+        <div class="circleChart" id="1" data-value="82">
+
+        </div>
+
+        <fieldset>
+            <span class="long">82 </span><span>%</span>
+            <p>收水费情况占比</p>
+        </fieldset>
+        <!--<div class="ring">
+           &lt;!&ndash; <div class="cir"></div>
+            <div class="cle"></div>&ndash;&gt;
+            <fieldset>
+                <span class="long">82 </span><span>%</span>
+                <p>收水费情况占比</p>
+            </fieldset>
+        </div>-->
+
+    </div>
+    <ul class="slider">
+        <li><a href="collect-fees.html">
+            <p><img src="img/index-collect-fees.png" alt=""></p>
+            收水费</a></li>
+        <li><a href="return-fee_one.html">
+            <p class="sup"><img src="img/index-return_fee.png" alt="">
+            <span class="cou">2</span>
+            </p>
+            退水费</a></li>
+        <li><a href="drip-record-sheet.html">
+            <p><img src="img/index-drain.png" alt=""></p>放水</a></li>
+        <li><a href="reclamation-record-sheet.html">
+            <p><img src="img/index-back_water.png" alt=""></p>
+            退水</a></li>
+    </ul>
+
+</section>
+<footer>
+    <ul class="nav">
+        <li><a href="index.html" class="ac"><p class="icon-home-2"></p>首页</a></li>
+        <li><a href="water-user-information-one.html"><p class="icon-user"></p>用户信息</a></li>
+        <li><a href="information.html"><p class="icon-big"></p>信息查询</a></li>
+        <li><a href="count.html"><p class="icon-count"></p>辅助计算</a></li>
+    </ul>
+
+</footer>
+
+
+
+<script src="./public/layui/layui.all.js"></script>
+<script src="js/home.js"></script>
+
+<script>
+    //JavaScript代码区域
+    layui.use('element', function () {
+        var element = layui.element;
+
+    });
+    nav._nav();
+    $.drop_down();
+
+    // 圈
+    $(".circleChart#1").circleChart({
+        size:300,
+        color: "#FFB300",
+        // counterclockwise:true
+        widthRatio:0.1,
+        startAngle:75
+    });
+    /*$(".circleChart#0").circleChart({
+        size: 300,
+        value: 50,
+        text: 0,
+        onDraw: function(el, circle) {
+            circle.text(Math.round(circle.value) + "%");
+        }
+    });*/
+    setInterval(function() {
+        $("#0").circleChart({
+            value: Math.random() * 100
+        });
+    }, 4000);
+
+</script>
+</body>
+</html>

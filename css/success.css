@@ -1,0 +1,83 @@
+section{
+    font-size: 0.25rem;
+}
+body{
+    font-size: 0.25rem;
+}
+.ka{
+margin-top: 3rem;
+    font-size: 0.4rem;
+}
+.ka h1{
+    text-align: center;
+}
+.ka h1 img{
+    width: 1.5rem;
+}
+.yellow{
+    color: #FFCB00;
+}
+.ka p{
+    text-align: center;
+    font-size: 0.4rem;
+    padding: 0.2rem 0;
+    color: #696969;
+}
+._id{
+   text-align: center;
+    position: relative;
+}
+._id .card{
+    width: 70%;
+}
+._id .num{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /*border: 1px solid #000;*/
+}
+._id .num span{
+    color: #FFFF00;
+}
+.left- img{
+    width: 0.8rem;
+    vertical-align: middle;
+}
+.left- span{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.right-,.left-{
+    display: inline-block;
+    vertical-align: middle;
+}
+.right-{
+    width: 2rem;
+  text-align: left;
+}
+.right- span:first-child{
+    font-size: 0.5rem;
+    display: inline-block;
+    width: 1.8rem;
+}
+.right- span:last-child{
+    font-size: 0.35rem;
+    color: #FFFF00;
+}
+.ka .use{
+    color: #fff;
+    font-weight: bold;
+}
+.sub{
+    text-align: center;
+    margin: 3rem 0 1rem;
+}
+.sub .layui-btn{
+    width: 3.5rem;
+    height: 1rem;
+    background: #2F77EC;
+    font-size: 0.31rem;
+
+}

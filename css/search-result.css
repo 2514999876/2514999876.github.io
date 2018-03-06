@@ -1,0 +1,121 @@
+section {
+    font-size: 0.31rem;
+    width: 100%;
+    color: #999;
+    padding: 0.5rem 0;
+}
+html{
+    background: #F5F5F5;
+}
+section h3{
+    color: #2C80EC;
+    padding: 0.3rem;
+}
+.condition{
+    background: #F9FAFB;
+    padding: 0.3rem 0;
+}
+.quire{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #C9D2DD;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+
+}
+.quire p{
+    padding: 0.2rem 0.5rem;
+}
+.quire p span:last-child{
+    color: #333;
+}
+.types{
+    background: #fff;
+    border-left: 0.2rem solid #3ECA81;
+    margin: 0.2rem 0;
+}
+.types p{
+    border-bottom: 1px solid #ECEFF0;
+    padding: 0.3rem 0.1rem;
+}
+.types .left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.5rem;
+    padding: 0 0 0 0.3rem;
+
+}
+.types .right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.5rem;
+    text-align: right;
+}
+.types ul{
+    display: block;!important;
+}
+.types ul li{
+    padding: 0.2rem;
+}
+.types ul li:first-child {
+    color: #3ECA81;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+.types ul li:last-child {
+    color: #333;
+  
+}
+.types ul li span{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+.pic{
+    background: #F9FAFB;
+}
+.types .jing li:first-child {
+    color: #F64747;
+
+}
+.tu{
+    width: 0.6rem;
+    vertical-align: center;
+}
+.types ._left{
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
+    /*border: 1px solid #000;*/
+    border: none;
+    padding: 0.2rem 0;
+}
+.types ._left img{
+    width: 2rem;
+}
+.types ._right{
+    display: inline-block;
+    vertical-align: middle;
+    width: 7rem;
+    /*border: 1px solid #000;*/
+    border: none;
+    padding: 0.2rem 0;
+}
+.types ._right span{
+    display: inline-block;
+   width: 3.4rem;
+    font-size: 0.25rem;
+    font-weight: normal;
+    padding: 0.1rem 0;
+
+}
+.green{
+    color: #3ECA91;
+    font-size: 0.5rem !important;
+    font-weight: bold !important;
+}
+.red{
+    color: #F64747;
+    font-size: 0.5rem !important;
+    font-weight: bold !important;
+}
